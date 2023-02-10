@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <div>
+        say hi
         count: {count}
       </div>
        <button onClick={()=>{setCount(count+1)}}>+1</button>
